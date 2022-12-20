@@ -1,136 +1,128 @@
-.contenedor{
-    background-color: #151315;
-    z-index: 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-
+.contenedor {
+  background-color: #151315;
+  z-index: 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
 }
-@media (max-width:400px) {
-    .contenedor {
-        max-width: none;
-    }
-    
+@media (max-width: 400px) {
+  .contenedor {
+    max-width: none;
+  }
 }
 .ordenarContenedor {
-    align-items: center;
-    display:flex;
-    flex-direction: row;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 100;
-    justify-content: center;
-
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  justify-content: center;
 }
 titulo_avatares {
-    max-width: 78%;
+  max-width: 78%;
 }
 .titulo-principal {
-    text-align: center;
-    font-size: 3.5vw ;
-    color: #fff;
-    font-weight: bold;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3.5vw;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width:800px) {
-    font-size: 30px;
+@media (max-width: 800px) {
+  font-size: 30px;
 }
 .lista-avatar {
-    margin: 2em 0;
-    padding: 1px;
-    
+  margin: 2em 0;
+  padding: 1px;
 }
 
 .decoracion-lista {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
 }
-     
-.avatar {
-    border: none;
-    border-radius: 12px;
-    min-width: 83px;
-    max-width: 200px;
-    min-height: 83px;
-    max-height: 200px;
-    height: 10vw;
-    width: 10vw;
-    position: relative;
-    box-sizing: border-box;
-    text-decoration: none;
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    color: #fff;
-    padding: 0.5em;
-    filter:brightness(80%);
 
+.avatar {
+  border: none;
+  border-radius: 12px;
+  min-width: 83px;
+  max-width: 200px;
+  min-height: 83px;
+  max-height: 200px;
+  height: 10vw;
+  width: 10vw;
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  color: #fff;
+  padding: 0.5em;
+  filter: brightness(80%);
 }
 .nombre {
-    font-family: serif;
-    color:gray;
-    font-size: 1.5vw;
-    margin: 0.8em 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    filter:brightness(80%);
-    cursor: pointer;
+  font-family: serif;
+  color: gray;
+  font-size: 1.5vw;
+  margin: 0.8em 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  filter: brightness(80%);
+  cursor: pointer;
 }
 .avatar .nombre {
-    cursor: pointer;
-    color: #fff;
-    padding: 0.5em;
-    display:block; 
-    content:""; 
-    position: absolute;
-    border: 0.4em solid transparent;
-    bottom: 0;
+  cursor: pointer;
+  color: #fff;
+  padding: 0.5em;
+  display: block;
+  content: "";
+  position: absolute;
+  border: 0.4em solid transparent;
+  bottom: 0;
 }
 .avatar:hover {
-    filter:brightness(100%);
-    background-color: rgb(245, 238, 245);
-    padding: 2px; 
+  filter: brightness(100%);
+  background-color: rgb(245, 238, 245);
+  padding: 2px;
 }
 .nombre:hover {
-    filter:brightness(100%);
-    background-color:rgb(245, 238, 245);
-    padding: 2px; 
-    text-decoration: none;
-   
+  filter: brightness(100%);
+  background-color: rgb(245, 238, 245);
+  padding: 2px;
+  text-decoration: none;
 }
 .candaito {
-    color: #fff;
-    height: 26px;
-    width: 26px;
-    fill: none;
-    filter:brightness(100%);
-    cursor: pointer;
+  color: #fff;
+  height: 26px;
+  width: 26px;
+  fill: none;
+  filter: brightness(100%);
+  cursor: pointer;
 }
-.boton { 
-    text-align: center;
-    font-size: 1.2vw ;
-    color: gray;
-    font-weight: bold;
-    width: 100%;
-    font-family: serif;
-    border: 1px solid grey;
-    margin: 2em 0 1em;
-    padding: 0.5em 1.5em;
-    cursor: pointer;
+.boton {
+  text-align: center;
+  font-size: 1.2vw;
+  color: gray;
+  font-weight: bold;
+  width: 100%;
+  font-family: serif;
+  border: 1px solid grey;
+  margin: 2em 0 1em;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
 }
 .boton:hover {
-    
-    filter:brightness(100%);
-    background-color:rgb(245, 238, 245);
-    padding: 1px; 
-    text-decoration: solid;
+  filter: brightness(100%);
+  background-color: rgb(245, 238, 245);
+  padding: 1px;
+  text-decoration: solid;
 }
-
