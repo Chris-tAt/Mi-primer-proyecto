@@ -17,12 +17,11 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
-  z-index: 100;
   justify-content: center;
 }
 titulo_avatares {
@@ -59,7 +58,6 @@ titulo_avatares {
   max-height: 200px;
   height: 10vw;
   width: 10vw;
-  position: relative;
   box-sizing: border-box;
   text-decoration: none;
   background-size: cover;
@@ -111,6 +109,7 @@ titulo_avatares {
 .boton {
   text-align: center;
   font-size: 1.2vw;
+  font-family: serif;
   color: gray;
   font-weight: bold;
   width: 100%;
@@ -119,6 +118,10 @@ titulo_avatares {
   margin: 2em 0 1em;
   padding: 0.5em 1.5em;
   cursor: pointer;
+  max-width: fit-content;
+  position: fixed;
+  bottom: 60px;
+
 }
 .boton:hover {
   filter: brightness(100%);
